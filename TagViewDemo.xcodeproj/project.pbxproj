@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621D22D9FA1DB4AE40BE802C /* Pods_TagViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554CE688D8ED20BFD5E00F3D /* Pods_TagViewDemo.framework */; };
 		F379597820C917680055119B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F379597720C917680055119B /* AppDelegate.m */; };
 		F379597B20C917680055119B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F379597A20C917680055119B /* ViewController.m */; };
 		F379597E20C917680055119B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F379597C20C917680055119B /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		F379598620C917680055119B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F379598520C917680055119B /* main.m */; };
 		F379599020C917690055119B /* TagViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F379598F20C917690055119B /* TagViewDemoTests.m */; };
 		F379599B20C917690055119B /* TagViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F379599A20C917690055119B /* TagViewDemoUITests.m */; };
+		F37959AA20C917C70055119B /* JHTypeTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37959A920C917C70055119B /* JHTypeTagView.m */; };
+		F37959AD20C918410055119B /* JHTypeTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F37959AC20C918410055119B /* JHTypeTagCell.m */; };
+		F37959B020C9199F0055119B /* JHCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37959AF20C9199F0055119B /* JHCircleView.m */; };
+		F37959B320C91C540055119B /* JHContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37959B220C91C540055119B /* JHContainerView.m */; };
+		F37959B620C91CF20055119B /* JHTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F37959B520C91CF20055119B /* JHTagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1266C3964F17C5F8DE246E2A /* Pods-TagViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagViewDemo/Pods-TagViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2C817228E37AA048E442DF75 /* Pods-TagViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagViewDemo/Pods-TagViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		554CE688D8ED20BFD5E00F3D /* Pods_TagViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F379597320C917680055119B /* TagViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F379597620C917680055119B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F379597720C917680055119B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +58,16 @@
 		F379599620C917690055119B /* TagViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F379599A20C917690055119B /* TagViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagViewDemoUITests.m; sourceTree = "<group>"; };
 		F379599C20C917690055119B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37959A820C917C60055119B /* JHTypeTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTypeTagView.h; sourceTree = "<group>"; };
+		F37959A920C917C70055119B /* JHTypeTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTypeTagView.m; sourceTree = "<group>"; };
+		F37959AB20C918410055119B /* JHTypeTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTypeTagCell.h; sourceTree = "<group>"; };
+		F37959AC20C918410055119B /* JHTypeTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTypeTagCell.m; sourceTree = "<group>"; };
+		F37959AE20C9199F0055119B /* JHCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHCircleView.h; sourceTree = "<group>"; };
+		F37959AF20C9199F0055119B /* JHCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHCircleView.m; sourceTree = "<group>"; };
+		F37959B120C91C540055119B /* JHContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHContainerView.h; path = Assets.xcassets/JHContainerView.h; sourceTree = "<group>"; };
+		F37959B220C91C540055119B /* JHContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHContainerView.m; path = Assets.xcassets/JHContainerView.m; sourceTree = "<group>"; };
+		F37959B420C91CF20055119B /* JHTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHTagView.h; sourceTree = "<group>"; };
+		F37959B520C91CF20055119B /* JHTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621D22D9FA1DB4AE40BE802C /* Pods_TagViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C21FEA21ECDE9BE0A75B92F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554CE688D8ED20BFD5E00F3D /* Pods_TagViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95631BF826618A4419074A14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C817228E37AA048E442DF75 /* Pods-TagViewDemo.debug.xcconfig */,
+				1266C3964F17C5F8DE246E2A /* Pods-TagViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F379596A20C917680055119B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				F379598E20C917690055119B /* TagViewDemoTests */,
 				F379599920C917690055119B /* TagViewDemoUITests */,
 				F379597420C917680055119B /* Products */,
+				95631BF826618A4419074A14 /* Pods */,
+				8C21FEA21ECDE9BE0A75B92F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +142,16 @@
 				F379597720C917680055119B /* AppDelegate.m */,
 				F379597920C917680055119B /* ViewController.h */,
 				F379597A20C917680055119B /* ViewController.m */,
+				F37959B420C91CF20055119B /* JHTagView.h */,
+				F37959B520C91CF20055119B /* JHTagView.m */,
+				F37959A820C917C60055119B /* JHTypeTagView.h */,
+				F37959A920C917C70055119B /* JHTypeTagView.m */,
+				F37959AB20C918410055119B /* JHTypeTagCell.h */,
+				F37959AC20C918410055119B /* JHTypeTagCell.m */,
+				F37959AE20C9199F0055119B /* JHCircleView.h */,
+				F37959AF20C9199F0055119B /* JHCircleView.m */,
+				F37959B120C91C540055119B /* JHContainerView.h */,
+				F37959B220C91C540055119B /* JHContainerView.m */,
 				F379597C20C917680055119B /* Main.storyboard */,
 				F379597F20C917680055119B /* Assets.xcassets */,
 				F379598420C917680055119B /* Info.plist */,
@@ -136,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F379599F20C917690055119B /* Build configuration list for PBXNativeTarget "TagViewDemo" */;
 			buildPhases = (
+				D63BFC6F79FF2D04A7C44E1B /* [CP] Check Pods Manifest.lock */,
 				F379596F20C917680055119B /* Sources */,
 				F379597020C917680055119B /* Frameworks */,
 				F379597120C917680055119B /* Resources */,
+				82A5962998700B9AE059C757 /* [CP] Embed Pods Frameworks */,
+				3890DF5B92712EE9E929A6CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,14 +308,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3890DF5B92712EE9E929A6CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagViewDemo/Pods-TagViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A5962998700B9AE059C757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagViewDemo/Pods-TagViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63BFC6F79FF2D04A7C44E1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F379596F20C917680055119B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37959B020C9199F0055119B /* JHCircleView.m in Sources */,
 				F379597B20C917680055119B /* ViewController.m in Sources */,
+				F37959AA20C917C70055119B /* JHTypeTagView.m in Sources */,
 				F379598620C917680055119B /* main.m in Sources */,
+				F37959B320C91C540055119B /* JHContainerView.m in Sources */,
 				F379597820C917680055119B /* AppDelegate.m in Sources */,
+				F37959AD20C918410055119B /* JHTypeTagCell.m in Sources */,
+				F37959B620C91CF20055119B /* JHTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +521,7 @@
 		};
 		F37959A020C917690055119B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C817228E37AA048E442DF75 /* Pods-TagViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +536,7 @@
 		};
 		F37959A120C917690055119B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1266C3964F17C5F8DE246E2A /* Pods-TagViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
